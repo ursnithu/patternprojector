@@ -1,0 +1,363 @@
+{
+    "HomePage": {
+        "beta": "beta",
+        "pdfstitcherHref": "https://www.pdfstitcher.org/",
+        "youTubeSrc": "https://www.youtube.com/embed/videoseries?si=80RVInkOM45wCyMB&amp;list=PLz35rzAwtPHC0IvLaBdWZWaYQxcr4sMlr",
+        "github": "Bekijk de broncode",
+        "calibrate": "Start kalibreren",
+        "choose-language": "Taal",
+        "welcome": {
+            "title": "Welkom bij Pattern Projector!",
+            "description": "Pattern projector is een gratis en open source web app die gebruikers helpt om snel en makkelijk projectors voor naaipatronen te kalibreren. Dit project is in een testfase ('beta'), je kan regelmatig veranderingen en nieuwe functionaliteit verwachten terwijl we er aan werken. Om te weten te komen over de laatste updates, kijk in de <changeLogLink>changelog</changeLogLink>."
+        },
+        "requirements": {
+            "title": "Wat je nodig hebt",
+            "projector": "Projector: ten minste 720p aanbevolen",
+            "mat": "Een snijmat met rasterlijnen (optioneel)",
+            "mount": "Een standaard, ophanging of bevestiging aan de muur, plafond of aan een tafel",
+            "computer": "Computer of tablet om verbinding te maken met de projector",
+            "pattern": "Een naaipatroon in PDF formaat"
+        },
+        "setup": {
+            "title": "Installatie",
+            "place": "Installeer de projector boven de snijmat, en laat hem naar de mat toe schijnen. Als je geen snijhebt hebt, kan je papier of schilderstape gebruiken om een raster of rechthoek te maken op de vloer of een tafel.",
+            "connect": "Maak met je computer of tablet verbinding met de projector en zet het scherm in 'spiegel' ('mirror') of 'uitbreiden' ('extend') modus (afhankelijk van hoe deze instelling op jouw device heet) zodat het beeld van de computer identiek op de projector weergegeven wordt.",
+            "focus": "Stel de focus van de projector zo in, dat tekst scherp wordt weergegeven, en in het midden van het projectiebeeld. Als je geen helder beeld kan krijgen, zorg er dan voor dat de afstand tussen de projector en de snijmat zich binnen de door de fabrikant aanbevolen afstanden bevindt.",
+            "keystone": "Als je projector trapeziumcorrectie ('keystone correction') heeft, stel die dan zo in dat de projectie zo rechthoekig mogelijk is, en het beeld aan de randen zo scherp mogelijk is."
+        },
+        "calibration": {
+            "title": "Calibratie",
+            "start": "Klik (of druk) op 'Start kalibreren.'",
+            "input": "Geef de breedte en hoogte van je snijmat in.",
+            "fullscreen": "Ga naar 'Volledig scherm' modus door te klikken (of drukken) op ",
+            "drag": "Sleep de hoeken van het raster tot ze overeenkomen met je snijmat. Stel de hoeken op je computer of tablet bij terwijl je naar de projectie kijkt.",
+            "size": "Je hoeft niet te kalibreren met je hele mat. Kies het grootste gebied op je mat waar het kalibratierooster in past en zorg ervoor dat je breedte- en hoogteinstellingen overeenkomen met het aantal vakjes van je raster.",
+            "project": "Als het geprojecteerde grid overeen komt met de snijmat, klik (of druk) dan op 'Projecteer'"
+        },
+        "project": {
+            "title": "Een patroon projecteren",
+            "open": "Klik (of druk) op <pdficon></pdficon> om het patroon te openen.",
+            "move": "Leg je stof op je snijmat. Verplaats het geprojecteerde beeld door op de PDF te klikken en hem over het scherm te slepen. Zet zo het juiste deel van je patroon op de stof (en snijmat onder de stof).",
+            "cut": "Snij, knip of teken langs het geprojecteerde beeld.",
+            "tools": "In projectiemodus zijn er verschillende gereedschappen beschikbaar. Sommige hebben toetsenbord sneltoetsen, aangeduid tussen haakjes.",
+            "showGrid": {
+                "title": "Toon/verberg raster",
+                "description": "Toont of verbergt een licht raster tijdens het projecteren. Handig om te controleren dat je kalibratie correct is."
+            },
+            "invert": {
+                "title": "Draai kleuren om",
+                "description": "Tijdens het projecteren is het meestal het makkelijkst om groene of witte lijnen op een zwarte achtergrond te zien. Maar met dit gereedschap kan je dat desgewensd omdraaien. Klik of druk één keer voor groene lijnen, twee keer voor witte lijnen, en drie keer om terug te gaan naar zwarte lijnen."
+            },
+            "flip": {
+                "title": "Spiegel vertikaal (V) of horizontaal (H)",
+                "description": "Handig om patronen op de vouw te spiegelen."
+            },
+            "rotate": {
+                "title": "Draai (R)",
+                "description": "Draai het patroon 90 graden."
+            },
+            "recenter": {
+                "title": "Centreer PDF opnieuw en reset (C)",
+                "description": "Plaatst het patroon in het midden van de snijmat en reset draaien/spiegelen."
+            },
+            "fullscreen": {
+                "title": "Volledig scherm",
+                "description": "Het is meestal het makkelijkst om de software in 'Volledig scherm' modus te gebruiken."
+            },
+            "moveTool": {
+                "description": "Het verplaatsgereedschap heeft vier pijlen om de hoeken en zijkanten van het calibratierooster te verplaatsen. Het heeft ook een knop in het midden om naar de volgende hoek of zijkant te gaan.",
+                "title": "Toon of verberg verplaats-gereedschap"
+            },
+            "overlayOptions": {
+                "title": "Toon of verberg overlay opties",
+                "description": "De overlays raster, rondom, blad papier en spiegellijnen kunnen getoond of verborgen worden. Voor meer informatie, zie de <overlayOptionsLink>overlay opties sectie</overlayOptionsLink>."
+            },
+            "measure": {
+                "description": "Markeer lijnen op de PDF voor draaien, spiegelen, verplaatsen, meten of markeren. Voor een gedetailleerde beschrijving, zie de <lineToolLink>lijn gereedschap sectie</lineToolLink>.",
+                "title": "Lijn gereedschap (L)"
+            },
+            "lineWeight": {
+                "title": "Lijndikte",
+                "description": "Verandert de dikte van de lijnen in het PDF patroon."
+            },
+            "layers": {
+                "title": "Toon of verberg lagen",
+                "description": "Toont of verbergt de lagen in de PDF."
+            },
+            "stitch": {
+                "title": "Toon of verberg samenvoeg menu",
+                "description": "Toont of verbergt het samenvoeg menu, waarmee je meerder paginas van een PDF patroon samen kan voegen."
+            },
+            "showMenu": {
+                "description": "Toon of verberg het menu bovenaan.",
+                "title": "Toon/verberg menu"
+            },
+            "magnify": {
+                "title": "Vergroot (M)",
+                "description": "Klik op de PDF om deze te vergroten. Klik opnieuw om te vergroten te stoppen."
+            },
+            "zoomOut": {
+                "title": "Uitzoomen (Z)",
+                "description": "Zoom uit om de hele PDF te zien. Klik op de PDF om de geselecteerde locatie te vergroten."
+            },
+            "scale": {
+                "title": "Schaalmenu weergeven of verbergen",
+                "description": "Verander de grootte van het patroon door een vergrotingsfactor in te geven: tussen 0 en 1 maakt het patroon kleiner, groter dan 1 maakt het patroon groter."
+            }
+        },
+        "faq": {
+            "title": "FAQ",
+            "wrongSizePdf": {
+                "question": "Is je geprojecteerde PDF te klein of te groot?",
+                "answer": "Het Pattern Projector kalibratie gereedschap heeft geen 'zoom' functie omdat de schaal van de projectie uit de informatie in de PDF gehaald wordt. Patronen van ontwerpers hebben meestal de juiste schaal. Het zou kunnen dat er een foute schaal ingeslopen is door het patroon te openen in Affinity Designer of Inkscape."
+            },
+            "saveAsApp": {
+                "question": "Wil je Pattern Projector als een app opslaan?",
+                "answer": "Pattern Projector is een 'Progressive Web App' (PWA), en kan dus als app opgeslagen worden. Op een computer kan je het installeren met <googleChromeLink>Chrome</googleChromeLink> of <microsoftEdgeLink>Edge</microsoftEdgeLink>. Op een tablet open je het 'Delen' menu en drukt op 'Voeg to aan startscherm'."
+            },
+            "annotationSupport": {
+                "question": "Ondersteunen jullie het toevoegen van notities?",
+                "answer": "Nog niet, maar dit is gepland voor een toekomstige versie."
+            },
+            "chromecastSupport": {
+                "question": "Ondersteunen jullie Chromecast?",
+                "answer": "Hoewel het mogelijk is om deze pagina te 'casten' in Chrome, kan de vertraging die hierdoor optreedt frustrerend zijn, vooral tijdens het kalibreren. Betere ondersteuning voor Chromecast is gepland voor een toekomstige versie."
+            },
+            "mobileSupport": {
+                "question": "Ondersteunen jullie mobiele telefoons en tablets?",
+                "answer": "Hoewel het mogelijk is om de webpagina te bezoeken en gebruiken met een smartphone, is het moeilijk te gebruiken door het kleine schermformaat."
+            }
+        },
+        "resources": {
+            "title": "Verdere informatie",
+            "links": {
+                "projectorsForSewing": {
+                    "title": "Naaien met een projector/beamer",
+                    "link": "https://www.facebook.com/groups/492119878090767"
+                },
+                "onePageGuide": {
+                    "title": "Naaien met een projector uitgelegd op één pagina",
+                    "link": "https://bit.ly/onepageguidetoprojectorsewing"
+                }
+            }
+        },
+        "contribute": {
+            "title": "Help dit project",
+            "donation": "Als je de ontwikkeling van deze software wil ondersteunen, overweeg dan om <donateLink>me een koffie te kopen</donateLink> of gebruik <payPalLink>PayPal</payPalLink>!",
+            "develop": "Help verbeteringen toe te voegen en problemen op te lossen op <githubLink>GitHub</githubLink>.",
+            "translate": "Vertaal deze software in meer talen met <weblateLink>Weblate</weblateLink>.",
+            "feedback": "Commentaar en verzoeken om nieuwe functionaliteit zijn welkom (in het Engels)!"
+        },
+        "contact": "Contact",
+        "lineTool": {
+            "delete": {
+                "title": "Verwijder lijn",
+                "description": "Verwijdert de geselecteerde lijn."
+            },
+            "title": "Lijn gereedschap",
+            "description": "Het lijn gereedschap kan gebruikt worden om afstanden te meten, lijnen te markeren, en om de PDF te draaien, spiegelen of verplaatsen. Klik (of tik) op de lijn gereedschap knop, en klik (of tik) dan op de PDF om een lijn te tekenen. Zodra de lijn getekend is, verschijnt er een menu op het scherm met de volgende opties:",
+            "rotate": {
+                "title": "Lijn uit op het midden",
+                "description": "Draait de PDF zodat de geselecteerde lijn horizontaal en uitgelijnd op het midden van de mat is.",
+                "use": "Om de draadrichting op een patroondeel uit te lijnen met de draadrichting van je stof: teken een lijn op de draadrichtinglijn van je patroondeel. Klik (of tik) dan op de 'Lijn uit op het midden' knop."
+            },
+            "previousNext": {
+                "title": "Breng de vorige of volgende lijn naar het midden",
+                "description": "Verplaatst de PDF zodat de vorige of volgende getekende lijn horizontaal en uitgelijnd op het midden van de mat is.",
+                "use": "Om tussen patroondelen te wisselen terwijl je aan het snijden bent: teken een lijn op de draadrichtinglijn van elke patroondeel. Navigeer tussen de patroondelen met deze knoppen. Verwijder lijnen tijdens het verwerken van alle delen, om bij te houden welke delen nog gesneden moeten worden."
+            },
+            "flip": {
+                "title": "Spiegel langs lijn",
+                "description": "Spiegelt de PDF langs de lijn.",
+                "use": "Om patroondelen uit te vouwen: teken een lijn op de vouwlijn van een patroondeel. Snij het deel tot aan de vouwlijn. Klik (of tik) op de 'spiegel langs lijn' knop, en snij dan de rest van het patroondeel."
+            },
+            "move": {
+                "title": "Verplaats PDF lijnlengte",
+                "description": "Verplaatst de PDF de lengte van de lijn.",
+                "use": "Om patroondelen langer of korter te maken: teken een lijn loodrecht op de te verlengen lijn van een patroondeel. Snij tot deze lijn. Klik (of tik) dan op de 'verplaats lijn lengte' knop, en ga dan door met het snijden van het patroondeel. De richting van de getekende lijn hangt af van of je het patroondeel wil verlengen of verkorten."
+            }
+        },
+        "tools": "Gereedschappen",
+        "overlayOptions": {
+            "title": "Overlay opties",
+            "description": "De overlay opties kunnen gebruikt worden om kalibratie te controleren terwijl je aan het projekteren bent, en om te helpen bij het snijden van patroondelen. De volgende opties zijn beschikbaar:",
+            "border": {
+                "title": "Rand",
+                "description": "Toont de rand van het kalibratie raster."
+            },
+            "grid": {
+                "title": "Raster",
+                "description": "Toont het kalibratie raster."
+            },
+            "paper": {
+                "title": "Blad papier",
+                "description": "Toont een rechthoek met de maat van een Letter of A4 stuk papier, om de kalibratie te controleren."
+            },
+            "flipLines": {
+                "title": "Spiegel lijnen",
+                "description": "Toont lijnen om te helpen met het uitvouwen van patroondelen. Zet de vouwlijn van een patroondeel op de spiegellijn en klik op spiegel horizontaal of vertikaal om het patroon te spiegelen."
+            },
+            "flippedPattern": {
+                "title": "Verkeerde zijde",
+                "description": "Toont puntjes als de foute zijde van het patroon wordt geprojecteerd."
+            }
+        }
+    },
+    "Header": {
+        "projecting": "Projekteren",
+        "calibrating": "Kalibreren",
+        "openPDF": "Open",
+        "height": "H:",
+        "width": "W:",
+        "project": "Projecteer",
+        "calibrate": "Kalibreer",
+        "delete": "Reset kalibratie",
+        "gridOn": "Raster aan",
+        "gridOff": "Raster uit",
+        "invertColor": "Draai kleuren om",
+        "invertColorOff": "Kleuren omdraaien uit",
+        "flipVertical": "Spiegel vertikaal (V)",
+        "flipVerticalOff": "Spiegel vertikaal uit",
+        "flipHorizontal": "Spiegel horizontaal (H)",
+        "flipHorizontalOff": "Spiegel horizontaal uit",
+        "rotate90": "Draai 90 graden met de klok mee (R)",
+        "fourCornersOn": "Alle hoeken markeren",
+        "fourCornersOff": "Alleen geselecteerde hoek markeren",
+        "arrowBack": "1 pagina terug",
+        "arrowForward": "1 pagina vooruit",
+        "info": "Informatie pagina",
+        "layersOn": "Toon lagen menu",
+        "layersOff": "Verberg lagen menu",
+        "recenter": "Centreer PDF opnieuw (C)",
+        "fullscreen": "Start 'volledig scherm'",
+        "fullscreenExit": "Verlaat 'volledig scherm'",
+        "lineWeight": "Lijndikte",
+        "stitchMenuShow": "Toon het samenvoegen menu",
+        "stitchMenuHide": "Verberg het samenvoegen menu",
+        "menuShow": "Toon menu",
+        "menuHide": "Verberg menu",
+        "overlayMode": "Extra laag",
+        "overlayModeBorder": "Rand",
+        "overlayModeOff": "Geen",
+        "overlayModeGrid": "Raster",
+        "overlayModePaper": "Blad papier",
+        "measureOn": "Begin met meten",
+        "measureOff": "Stop met meten",
+        "overlayOptions": "Overlay instellingen",
+        "overlayOptionBorder": "Rand",
+        "overlayOptionDisabled": "Geen",
+        "overlayOptionGrid": "Raster",
+        "overlayOptionPaper": "Blad papier",
+        "overlayOptionFliplines": "Spiegel lijnen",
+        "flipCenterOn": "Spiegel rond midden aan",
+        "flipCenterOff": "Spiegel rond midden uit",
+        "showMovement": "Toon het verplaatsgereedschap",
+        "hideMovement": "Verberg het verplaatsgereedschap",
+        "ok": "OK",
+        "calibrationAlertTitle": "Kalibratie waarschuwing",
+        "calibrationAlert": "De venstergrootte is veranderd sinds het projecteren begonnen is, verander de \"schermvullend\" instelling of kalibreer opnieuw om dit op te lossen.",
+        "calibrationAlertContinue": "De venstergrootte kan niet meer veranderd worden na de kalibratie. Om in volledig venster te projekteren, kalibreer in volledig venster. Als je de venstergrootte wil veranderen, kalibreer dan opnieuw.",
+        "continue": "Sla venstergrootte op en ga door",
+        "checkCalibration": "Kalibratie nakijken",
+        "measure": "Lijn gereedschap (L)",
+        "stitchMenuDisabled": "Open PDF om het samenvoegen menu te gebruiken",
+        "overlayOptionFlippedPattern": "Verkeerde zijde",
+        "magnify": "Vergroot (M)",
+        "zoomOut": "Uitzoomen (Z)",
+        "invalidCalibration": "Het kalibratieraster is niet geldig. Klik op 'Kalibratie resetten' om opnieuw te proberen.",
+        "mail": "Email van Courtney"
+    },
+    "StitchMenu": {
+        "columnCount": "Kolommen",
+        "pageRange": "Paginas aan elkaar plakken",
+        "horizontal": "Horizontale overlap",
+        "vertical": "Verticale overlap",
+        "zeros": "Voeg 0en toe voor lege paginas, bv 1-3,0,0,4",
+        "rowCount": "Rijen"
+    },
+    "MovementPad": {
+        "up": "Omhoog",
+        "down": "Naar beneden",
+        "left": "Links",
+        "right": "Rechts",
+        "next": "Volgende hoek"
+    },
+    "MeasureCanvas": {
+        "rotateToHorizontal": "Lijn uit op midden",
+        "translate": "Verplaats het patroon met de lengte van de lijn",
+        "deleteLine": "Verwijder lijn",
+        "flipAlong": "Spiegel langs lijn",
+        "rotateAndCenterPrevious": "Breng de vorige lijn naar het midden",
+        "rotateAndCenterNext": "Breng de volgende lijn naar het midden",
+        "line": "lijn",
+        "lines": "lijnen"
+    },
+    "LayerMenu": {
+        "title": "Lagen",
+        "showAll": "Toon alles",
+        "hideAll": "Verberg alles",
+        "layersOn": "Toon lagen menu",
+        "layersOff": "Verberg lagen menu",
+        "noLayers": "Geen lagen in het patroon"
+    },
+    "InstallButton": {
+        "title": "Installeer App",
+        "ok": "OK",
+        "description": "Installeer Pattern Projector met <chromeLink>Google Chrome</chromeLink> voor de beste ervaring. In Chrome, download de app door op <installIcon></installIcon> in de adresbalk te klikken.",
+        "descriptionAndroid": "Gebruik Firefox voor de beste ervaring op Android. Download de app met de 'meer' knop <moreIcon></moreIcon> in het browsermenu en dan <addToHomeScreenIcon></addToHomeScreenIcon> ‘Zet in beginscherm’ (Add to home screen).",
+        "descriptionIOS": "Dowload de app met de 'delen' knop <shareIcon></shareIcon> in het browsermenu, en dan met de <addToHomeScreenIcon></addToHomeScreenIcon> ‘Zet in beginscherm’ (Add to home screen) <addBoxIcon></addBoxIcon> knop."
+    },
+    "SaveMenu": {
+        "encryptedPDF": "Deze PDF is beveiligd. Voer het wachtwoord in om de samengevoegde PDF op te slaan.",
+        "save": "Exporteer PDF",
+        "saveTooltip": "Exporteer PDF met samengevoegde paginas en geselecteerde lagen"
+    },
+    "OverlayCanvas": {
+        "zoomedOut": "klik op patroon om in te zoomen",
+        "magnifying": "klik op patroon om te stoppen met vergroten",
+        "scaled": "<scale></scale>× schaal"
+    },
+    "PdfViewer": {
+        "error": "Niet gelukt om patroon te laden",
+        "noData": "Druk op de \"Open\" knop om een patroon te laden"
+    },
+    "ScaleMenu": {
+        "show": "Toon schaal menu",
+        "hide": "Verberg schaal menu",
+        "scale": "Schaal patroon"
+    },
+    "Troubleshooting": {
+        "notMatching": "Komen de lijnen niet overeen met je mat?",
+        "dragCorners": {
+            "caption": "Een juist gekalibreerd raster.",
+            "description": "Sleep de hoeken van het raster naar een rechthoek van minstens 80x60cm op je mat. Het raster is best zo groot mogelijk, maar hoeft niet de hele mat te beslaan.",
+            "title": "Hoe te kalibreren"
+        },
+        "offByOne": {
+            "caption": "De foute maten zijn ingevoerd (23x17) in plaats van (24x18). Op de mat staan slechts nummers tot 23 en 17 dus het is makkelijk om de maten door elkaar te halen. Zorg dat je meet met een meetlint!",
+            "title": "Lijnen recht maar komen niet overeen?",
+            "description": "Als de geprojecteerde lijnen recht zijn maar niet overeen komen met je mat, is je breedte of hoogte misschien 1 cm verkeerd. Controleer je maten met een meetlint. Maten van matten kunnen verwarrend of niet erg nauwkeurig zijn, dus het is belangrijk om ze met een meetlint te controleren."
+        },
+        "unevenSurface": {
+            "title": "Gebogen lijnen?",
+            "caption": "Deze mat heeft een meetlat eronder liggen waardoor de lijnen in het midden krom zijn. Een beetje kromming is niet erg, maar grote krommingen zullen problemen veroorzaken.",
+            "description": "Als de geprojecteerde lijnen er gebogen uit zien, is de mat of het oppervlak eronder misschien niet vlak. Probeer de mat vlak te krijgen door karton onder de te lage punten te leggen, of verplaats naar een ander snijoppervlak."
+        },
+        "dimensionsSwapped": {
+            "title": "Rechthoeken in plaats van vierkanten?",
+            "description": "Als het geprojecteerde raster op rechthoeken lijkt in plaats van vierkanten, dan zijn de breedte en hoogte misschien omgedraaid. Wissel de waarden om in de invoervelden.",
+            "caption": "De breedte en hoogte staan in de verkeerde invoervelden. De afmetingen zouden moeten zijn: 'W: 24' en 'H:18'."
+        },
+        "close": "Sluiten",
+        "title": "Problemen met de kalibratie oplossen",
+        "inputMeasurement": "Gebruik een meetlint om de breedte en hoogte van het raster op je mat te meten. Geef deze waarden in in de breedte en hoogte velden."
+    },
+    "General": {
+        "error": "Fout",
+        "close": "Sluiten"
+    },
+    "Mail": {
+        "donate": "Doneer",
+        "title": "Email ontvangen"
+    }
+}
